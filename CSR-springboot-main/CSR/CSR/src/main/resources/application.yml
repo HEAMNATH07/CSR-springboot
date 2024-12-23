@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/csr
+      database: csr
+
+  application:
+    name: csr
+
+server:
+  port: 8085
+
+logging:
+  level:
+    root: INFO
